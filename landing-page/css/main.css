@@ -1,6 +1,7 @@
 
 html{
     font-family: 'Montserrat', sans-serif;
+    color: #333131;
 }
 
 
@@ -40,7 +41,23 @@ header p{
 }
 .card{
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
     text-align: center;
+    box-shadow: 5px 10px 18px #888888 ;
+    border-radius: 20px;
+    margin: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.drive{
+    background-color: #57eeab;
+}
+
+footer{
+    background-color: #fffd8c;
 }
  
