@@ -131,12 +131,29 @@ section p {
 
 footer {
     background-color: #fffd8c;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+h3{
+    padding-left: 25px;
+    font-size: 1.2rem;
+}
+
+div.cal input{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#hours{
+width: 15%;
+margin-left: 25px;
 }
 
 .calculate {
     font-weight: bold;
     color: #f7f7ff;
     background-color: #ff8480;
-
-
 }
