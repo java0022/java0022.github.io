@@ -82,7 +82,7 @@ section p {
     width: 80%;
     background-color: #f7f7ff;
     border: none;
-    margin: 10px;
+    margin: 10px 0px;
     padding: 10px;
     border-radius: 10px;
     font-size: 18px;
@@ -93,22 +93,24 @@ section p {
 }    
 
 .check {
-    margin-bottom: 20px;
-}
-
-.check {
+    /* margin-bottom: 30px; */
+    padding: 20px;
     text-align: left;
     padding-left: 30px;
 }
 
+.box{
+    width: 20px;
+    height: 20px;
+}
 
 
 .drive {
     background-color: #57eeab;
-    padding: 10px 60px;
+    /* padding: 10px 60px;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 20px; */
     color: #333131;
 }
 
