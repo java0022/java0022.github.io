@@ -144,7 +144,7 @@ div.cal input{
     border: none;
     padding: 8px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #hours{
@@ -156,4 +156,20 @@ margin-left: 25px;
     font-weight: bold;
     color: #f7f7ff;
     background-color: #ff8480;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cal-box{
+    text-align: center;
+}
+
+.icon{
+    margin-top: 20px;
+    text-align: center;
+}
+div.icon img{
+    margin: 0px 20px;
 }
