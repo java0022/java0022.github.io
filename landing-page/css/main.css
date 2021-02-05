@@ -254,7 +254,7 @@ div.icon img{
 ------------------------*/
 
 
-@media screen and (min-width: 801px){
+@media screen and (min-width: 990px){
 
     .container{
         background-image: url(../images/bg-image/scooter.svg);
