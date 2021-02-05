@@ -113,7 +113,6 @@ section p {
 
 .drive {
     background-color: #57eeab;
-    /* padding: 10px 60px; */
     border-radius: 10px;
     padding: 10px;
     font-weight: bold;
@@ -170,10 +169,13 @@ margin-left: 25px;
     padding: 10px 70px;
     font-weight: bold;
     font-size: 20px;
+    display: block;
+    
 }
 
 .cal-box{
     text-align: center;
+    display: block;
 }
 
 .icon{
