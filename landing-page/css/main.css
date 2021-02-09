@@ -319,10 +319,10 @@ div.icon img {
         margin-bottom: 50px;
     }
     h1{
-        font-size: 80px;
+        /* font-size: 80px; */
     }
     header p{
-        font-size: 2rem;
+        /* font-size: 2rem; */
     }
 
     /* -----End Header------ */
