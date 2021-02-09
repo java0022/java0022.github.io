@@ -43,9 +43,9 @@ header p {
 
 
 
- /* DONT NEED THIS  */
+/* DONT NEED THIS  */
 .scooter {
-    width: 90%;   
+    width: 90%;
     padding-left: 20px;
     box-sizing: border-box;
     margin-bottom: 10px;
@@ -91,11 +91,11 @@ section p {
     padding: 10px;
     border-radius: 10px;
     font-size: 18px;
-    }
+}
 
-.input-txt::placeholder{
+.input-txt::placeholder {
     color: #c2bdbd;
-}    
+}
 
 .check {
     /* margin-bottom: 30px; */
@@ -105,7 +105,7 @@ section p {
     margin-bottom: 20px;
 }
 
-.box{
+.box {
     width: 20px;
     height: 20px;
 }
@@ -140,24 +140,24 @@ footer {
     padding: 20px;
 }
 
-h3{
+h3 {
     padding-left: 25px;
     font-size: 1.2rem;
 }
 
-div.cal input{
+div.cal input {
     border: none;
     padding: 8px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-#hours{
-width: 20%;
-margin-left: 25px;
+#hours {
+    width: 20%;
+    margin-left: 25px;
 }
 
-#city{
+#city {
     width: 55%;
 }
 
@@ -170,19 +170,20 @@ margin-left: 25px;
     font-weight: bold;
     font-size: 20px;
     display: block;
-    
+
 }
 
-.cal-box{
+.cal-box {
     text-align: center;
     display: block;
 }
 
-.icon{
+.icon {
     margin-top: 20px;
     text-align: center;
 }
-div.icon img{
+
+div.icon img {
     margin: 0px 20px;
 }
 
@@ -193,60 +194,61 @@ div.icon img{
 ------------------------------*/
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
-  header{
-      margin: 0px 50px;
-  }
+    header {
+        margin: 0px 50px;
+    }
 
-  .scooter{
-     width: 70%;
-     margin-left: 15%;
-  }
+    .scooter {
+        width: 70%;
+        margin-left: 15%;
+    }
 
-  section p{
-      font-size: 2rem;
-  }
-  
-  .input-txt{
-      width: 90%;
-  }
+    section p {
+        font-size: 2rem;
+    }
 
-  div.check label{
-      font-size: 18px;
- }
+    .input-txt {
+        width: 90%;
+    }
 
- .drive{
-     /* padding: 20px 170px; */
-     font-size: 28px;
-     /* display: block; */
- }
+    div.check label {
+        font-size: 18px;
+    }
 
- .anchor{
-     font-size: 1rem;
-     text-align: center;
- }
+    .drive {
+        /* padding: 20px 170px; */
+        font-size: 28px;
+        /* display: block; */
+    }
 
- div.cal p{
-     font-size: 1rem;
- }
- .calculate{
-     padding: 5px 40px;
-     }
+    .anchor {
+        font-size: 1rem;
+        text-align: center;
+    }
 
-    .inline{
+    div.cal p {
+        font-size: 1rem;
+    }
+
+    .calculate {
+        padding: 5px 40px;
+    }
+
+    .inline {
         display: flex;
     }
 
-    #hours{
+    #hours {
         width: 10%;
     }
 
-    #city{
+    #city {
         width: 30%;
     }
 
-    div.cal input{
+    div.cal input {
         margin-right: 10px;
     }
 }
@@ -256,81 +258,80 @@ div.icon img{
 ------------------------*/
 
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
 
-    .container{
+    .container {
         background-image: url(../images/bg-image/scooter.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 30%;
     }
 
-    .scooter{
+    .scooter {
         display: none;
     }
-   
-   
-    .container{
-       max-width: 100%;
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       grid-template-rows: 1fr ;
-       grid-template-areas: 
-       " section1 section2"
-       " section3 section3";
+
+
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            " section1 section2"
+            " section3 section3";
     }
-   
-    header{
+
+    header {
         grid-area: section1;
         margin-bottom: 350px;
     }
 
-    main{
+    main {
         grid-area: section2;
         justify-self: center;
     }
 
-    footer{
-      grid-area: section3;
-      
+    footer {
+        grid-area: section3;
     }
 
-   /* ------ Header------- */
+    /* ------ Header------- */
 
-   .logo{
-       margin-bottom: 50px;
-   }
+    .logo {
+        margin-bottom: 50px;
+    }
 
-   /* -----End Header------ */
+    /* -----End Header------ */
 
-   /* ----Apply Now Section----- */
+    /* ----Apply Now Section----- */
 
-   .card{
-       width: 120%;
-       /* width: 55%; */
-       margin: 0px;
-       margin-top: 200px;
+    .card {
+        width: 120%;
+        /* width: 55%; */
+        margin: 0px;
+        margin-top: 200px;
     }
 
     .input-txt {
         width: 90%;
     }
-    
-    .icon-right{
+
+    /* ----- End Apply Now section------ */
+
+    .icon-right {
         display: flex;
         flex-direction: row;
     }
 
-    .icon{
+    .icon {
         margin: 0px;
         margin-left: 39%;
     }
 
-   
-    
 
 
-  
+
+
+
 }
-
-   
