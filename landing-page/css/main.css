@@ -1,3 +1,4 @@
+/*Used Google Font 'Montserrat' for the font-family */
 html {
     font-family: 'Montserrat', sans-serif;
     color: #333131;
@@ -8,14 +9,15 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #f7f7ff;
-
 }
 
 /* ------------------------
       Mobile Styles 
 ---------------------------*/
 
+
 /* ----- Header ----- */
+/* Decreased the size of the logo and used appropriate font-sizes for the h1 and Paragraph */
 .logo {
     width: 200px;
     padding-left: 20px;
@@ -40,21 +42,22 @@ header p {
 /* ----- End Header ----- */
 
 
+/*----- Scooter Image----- */
 
-
-
-/* DONT NEED THIS  */
 .scooter {
+    /* Decreased the size of the scooter image */
     width: 90%;
     padding-left: 20px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
 
+/* ----End Scooter Image--- */
 
 /* ------ Apply Now Section ----- */
 
-
+/* Aligned the text (h2, P) to the left side of the card, took away the border for the input area and changed the font color of the placeholder text. 
+Added a 'box-shadow' property to create a shadow under the card. */
 .card {
     background-color: white;
     padding: 10px;
@@ -98,7 +101,6 @@ section p {
 }
 
 .check {
-    /* margin-bottom: 30px; */
     padding: 20px;
     text-align: left;
     padding-left: 30px;
@@ -173,9 +175,9 @@ div.cal input {
 
 }
 
+/* Aligned the 'Calculate button' and the 'Social Media Icons' in the center  */
 .cal-box {
     text-align: center;
-    display: block;
 }
 
 .icon {
@@ -189,21 +191,28 @@ div.icon img {
 
 /* ------ End Footer ------- */
 
+
+
 /*  ---------------------------
        Tablet Styles 
 ------------------------------*/
 
-
+/* Added Media Queries for a Responsive layout - Tablet  */
 @media screen and (min-width: 768px) {
 
+    /* ----- Header ------ */
     header {
         margin: 0px 50px;
     }
+
+    /* ----End Header ------ */
 
     .scooter {
         width: 70%;
         margin-left: 15%;
     }
+
+    /* ----- Apply Now Section----- */
 
     section p {
         font-size: 2rem;
@@ -228,6 +237,9 @@ div.icon img {
         text-align: center;
     }
 
+    /* ------ End Apply Now Section------- */
+
+    /* ------ Footer------- */
     div.cal p {
         font-size: 1rem;
     }
@@ -236,6 +248,7 @@ div.icon img {
         padding: 5px 40px;
     }
 
+    /* Used Flexbox to position the 'Input area' and the 'Calculate button' on the same line  */
     .inline {
         display: flex;
     }
@@ -253,13 +266,17 @@ div.icon img {
     }
 }
 
+/* ------ End Footer ----- */
+
+
 /* ----------------------
      Desktop Styles 
 ------------------------*/
 
-
+/* Added Media Queries for a Responsive Layout - Desktop */
 @media screen and (min-width: 1200px) {
 
+    /*  Used 'display: none' on the img tag and added the Scooter image as background image in the container and set the conatiner to take the max width of the browser*/
     .container {
         background-image: url(../images/bg-image/scooter.svg);
         background-repeat: no-repeat;
@@ -271,7 +288,7 @@ div.icon img {
         display: none;
     }
 
-
+    /* Used CSS Grid to divide the 'Header' 'Main' and 'Footer' in appropriate sections  */
     .container {
         max-width: 100%;
         display: grid;
@@ -301,14 +318,20 @@ div.icon img {
     .logo {
         margin-bottom: 50px;
     }
+    h1{
+        font-size: 80px;
+    }
+    header p{
+        font-size: 2rem;
+    }
 
     /* -----End Header------ */
+
 
     /* ----Apply Now Section----- */
 
     .card {
         width: 120%;
-        /* width: 55%; */
         margin: 0px;
         margin-top: 200px;
     }
@@ -319,6 +342,9 @@ div.icon img {
 
     /* ----- End Apply Now section------ */
 
+    /* ------Footer------- */
+
+    /* Used Flexbox to position the 'input area' 'calcualte button' and 'icons' on the same line  */
     .icon-right {
         display: flex;
         flex-direction: row;
@@ -326,12 +352,9 @@ div.icon img {
 
     .icon {
         margin: 0px;
-        margin-left:  39%;
+        margin-left: 39%;
     }
 
-
-
-
-
-
 }
+
+/* -------- End Footer-----  */
