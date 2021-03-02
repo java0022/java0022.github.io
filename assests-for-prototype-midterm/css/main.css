@@ -54,6 +54,8 @@ table {
 /* ------------------ */
 
 
+
+
 /* ----------------------
       MOBILE STYLES
 -------------------------*/
@@ -74,26 +76,73 @@ table {
 .menu-icon{
     align-self: flex-start;
     padding-right: 30px;
+   
 }
 
 nav{
     display: none;
 }
 
+
 .back-img{
     background-image: url(../Images/photo-1515037028865-0a2a82603f7c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 80px;
+    
 }
 
 .back-img p{
     color: white;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
 }
 
+/* section with photogallery */
 
+.gallery{
+    background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 15%;
+    padding: 90px;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
 
+ h1{
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: white ;
+    opacity: 0.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.cream{
+    background-image: url(../Images/photo-1588195539297-f0b4efdb5472.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 15%;
+    padding: 50px;
+    width: 67%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.team{
+    background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 15%;
+    padding: 50px;
+    width: 67%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
 
 
 
