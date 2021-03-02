@@ -7,48 +7,135 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* ------------------ */
@@ -60,40 +147,41 @@ table {
       MOBILE STYLES
 -------------------------*/
 
-.header{
-   display: flex;
-   flex-direction: row;
-   /* background-color: cornflowerblue; */
-   justify-content: space-between;
-   margin-bottom: 30px;
-   margin-top: 20px;
+.header {
+    display: flex;
+    flex-direction: row;
+    /* background-color: cornflowerblue; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
-.logo{
+
+.logo {
     width: 30%;
     padding-left: 30px;
 }
 
-.menu-icon{
+.menu-icon {
     align-self: flex-start;
     padding-right: 30px;
-   
+
 }
 
-nav{
+nav {
     display: none;
 }
 
 
-.back-img{
+.back-img {
     background-image: url(../Images/photo-1515037028865-0a2a82603f7c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px;
-    
+
 }
 
-.back-img p{
+.back-img p {
     color: white;
     line-height: 30px;
     text-align: center;
@@ -102,7 +190,7 @@ nav{
 
 /* section with photogallery */
 
-.gallery{
+.gallery {
     background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,19 +198,19 @@ nav{
     padding: 90px;
     width: 50%;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
- h1{
+h1 {
     text-align: center;
     padding: 25px;
     box-sizing: border-box;
-    background-color: white ;
+    background-color: white;
     opacity: 0.6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.cream{
+.cream {
     background-image: url(../Images/photo-1588195539297-f0b4efdb5472.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,7 +221,7 @@ nav{
     margin-top: 30px;
 }
 
-.team{
+.team {
     background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -142,8 +230,143 @@ nav{
     width: 67%;
     margin-left: 30px;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 
+/* promotional banner section  */
 
+.promotion {
+    background-image: url(../Images/photo-1578170265282-b1b1f64a72bf.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 80px;
+    background-color: #D6B2AD;
+}
 
+.promotion p {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+.order {
+    text-align: center;
+    margin-top: 30px;
+    width: 120px;
+    padding: 10px;
+    margin-left: 90px;
+    background-color: #0B5375;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+.order a {
+    text-decoration: none;
+    color: white;
+}
+
+.order:hover {
+    background-color: #306177;
+}
+
+/* footer */
+
+footer {
+    background-color: #C21C30;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.insta {
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.twitter {
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.fb {
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social {
+    padding: 30px 0px 0px 60px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.nav {
+    margin-left: 20px;
+}
+
+.payment {
+    text-align: end;
+    margin-right: 20px;
+}
+
+/* -----------------
+     TABLET STYLES 
+-------------------*/
+
+@media screen and (min-width: 600px) {
+
+    .logo {
+        width: 20%;
+    }
+
+    .back-img {
+        padding: 60px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "section1 section2"
+            "section1 section3";
+        column-gap: 1em;
+        margin-bottom: 70px;
+        margin-top: 30px;
+        width: 90%;
+        padding-left: 30px;
+
+    }
+
+    .gallery {
+        grid-area: section1;
+        height: 202px;
+    }
+
+    .cream {
+        grid-area: section2;
+        padding: 55px;
+        margin-top: 40px;
+    }
+
+    .team {
+        grid-area: section3;
+        padding: 55px;
+    }
+
+    /*  Promotion */
+
+    .promotion {
+        width: 75%;
+        margin-left: 40px;
+    }
+}
