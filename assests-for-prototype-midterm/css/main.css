@@ -190,15 +190,26 @@ nav {
 
 /* section with photogallery */
 
-.gallery {
-    background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
+
+.card{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 15%;
-    padding: 90px;
-    width: 50%;
-    margin-left: 30px;
-    margin-top: 40px;
+    padding: 50px;
+    height: auto;
+    margin: 25px;
+}
+.gallery {
+    background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 15%; */
+    /* padding: 90px; */
+    /* width: 50%; */
+    /* height: auto; */
+    /* margin-left: 30px;
+    margin-top: 40px; */
+    padding-bottom: 90px;
 }
 
 h1 {
@@ -212,25 +223,27 @@ h1 {
 
 .cream {
     background-image: url(../Images/photo-1588195539297-f0b4efdb5472.jpg);
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 15%;
     padding: 50px;
     width: 67%;
+    height: auto;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 30px; */
 }
 
 .team {
     background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg);
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% 15%;
     padding: 50px;
     width: 67%;
+    height: auto;
     margin-left: 30px;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 40px; */
 }
 
 
@@ -350,12 +363,11 @@ footer {
         grid-template-areas:
             "section1 section2"
             "section1 section3";
-        column-gap: 1em;
+        /* column-gap: 1em; */
         margin-bottom: 70px;
         margin-top: 30px;
         width: 90%;
         padding-left: 30px;
-
     }
 
     .gallery {
@@ -365,7 +377,7 @@ footer {
 
     .cream {
         grid-area: section2;
-        
+        margin-top: 40px;
     }
 
     .team {
@@ -378,7 +390,10 @@ footer {
         font-size: 20px;
     }
 
-
+    .contain{
+        max-width: 1200px;
+        margin: 0px auto;
+    }
 
     /* -------------- Promotion ------------*/
     
