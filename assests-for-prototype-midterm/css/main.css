@@ -179,8 +179,8 @@ nav {
 
 /* ------------- END HEADER SECTION----------- */
 
-/* ----------- BANNER SECTION----------
- */
+/* ----------- BANNER SECTION----------*/
+
 .banner-img {
     background-image: url(../Images/photo-1515037028865-0a2a82603f7c.jpg);
     background-size: cover;
@@ -461,6 +461,66 @@ footer {
 
 @media screen and (min-width: 1100px){
 
+    /* -------- HEADER SECTION ---------- */
     
+    .menu-icon{
+        display: none;
+    }
+
+    nav{
+        display: unset;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Dosis', sans-serif;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        width: 160px;
+        margin-top: 20px;
+    }
+
+    /* -------------- END HEADER SECTION ---------- */
+
+    /* ------------- BANNER SECTION ------------ */
+    
+    .banner-img{
+        background-position: 0%  70%;
+    }
+
+    .banner-img p{
+        font-size: 22px;
+    }
+
+    /* ---------- END BANNER SECTION ------------- */
+
+    /* ----------- CARD SECTION ---------------- */
+
+    .card{
+        padding: 100px;
+    }
+
+    .gallery, .cream{
+        margin-top: 100px;
+    }
+
+    /* ---------- END CARD SECTION -------------- */
+
+    /* ------------ PROMOTION SECTION ----------- */
+    
+    .promotion{
+        margin-left: 50px;
+    }
     
 }
+
