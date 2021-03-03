@@ -138,7 +138,10 @@ table {
     border-spacing: 0;
 }
 
-/* ------------------ */
+/* ------------------
+     END CSS RESET
+---------------------*/
+
 
 
 
@@ -147,10 +150,11 @@ table {
       MOBILE STYLES
 -------------------------*/
 
+/* ------------ HEADER SECTION----------- */
+
 .header {
     display: flex;
     flex-direction: row;
-    /* background-color: cornflowerblue; */
     justify-content: space-between;
     margin-bottom: 30px;
     margin-top: 20px;
@@ -158,12 +162,14 @@ table {
 
 .logo {
     width: 30%;
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    margin-left: 30px;
 }
 
 .menu-icon {
     align-self: flex-start;
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    margin-right: 30px;
 
 }
 
@@ -171,45 +177,39 @@ nav {
     display: none;
 }
 
+/* ------------- END HEADER SECTION----------- */
 
-.back-img {
+/* ----------- BANNER SECTION----------
+ */
+.banner-img {
     background-image: url(../Images/photo-1515037028865-0a2a82603f7c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 80px;
-
 }
 
-.back-img p {
+.banner-img p {
     color: white;
     line-height: 30px;
     text-align: center;
     font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }
 
-/* section with photogallery */
+/* ------------ END BANNER SECTION -------- */
+
+/* ------------- CARD SECTION ----------- */
 
 
 .card{
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 10% 15%;
+    /* background-position: 10% 15%; */
     padding: 50px;
     height: auto;
     margin: 25px;
-}
-.gallery {
-    background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 10% 15%; */
-    /* padding: 90px; */
-    /* width: 50%; */
-    /* height: auto; */
-    /* margin-left: 30px;
-    margin-top: 40px; */
-    padding-bottom: 90px;
 }
 
 h1 {
@@ -219,43 +219,37 @@ h1 {
     background-color: white;
     opacity: 0.6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
 }
+
+
+.gallery h1{
+    margin-top: 50px;
+}
+
+.gallery {
+    background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
+    padding-bottom: 90px;
+}
+
+
 
 .cream {
     background-image: url(../Images/photo-1588195539297-f0b4efdb5472.jpg);
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 10% 15%;
-    padding: 50px;
-    width: 67%;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 30px; */
 }
 
 .team {
     background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg);
-    /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 10% 15%;
-    padding: 50px;
-    width: 67%;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 40px; */
 }
 
+/* ------------- END CARD SECTION ----------- */
 
-/* promotional banner section  */
+/* ------------ PROMOTIONAL BANNER SECTION ----------  */
 
-h2{
-    display: none;
-}
 
-.second{
-    display: none;
-}
+ h2, .second{
+     display: none;
+ }
 
 .promotion {
     background-image: url(../Images/photo-1578170265282-b1b1f64a72bf.jpg);
@@ -265,12 +259,13 @@ h2{
     padding: 80px;
     background-color: #D6B2AD;
     box-sizing: border-box;
-}
+} 
 
 .promotion p {
     color: white;
     text-align: center;
     line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .order {
@@ -287,6 +282,8 @@ h2{
 .order a {
     text-decoration: none;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }
 
 .order:hover {
@@ -301,19 +298,7 @@ footer {
     padding-bottom: 10px;
 }
 
-.insta {
-    width: 25px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.twitter {
-    width: 25px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.fb {
+.sm{
     width: 25px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -323,15 +308,16 @@ footer {
     padding: 30px 0px 0px 60px;
 }
 
-.nav a {
+.footer-nav a {
     text-decoration: none;
     color: white;
     margin-top: 10px;
     padding-right: 20px;
     font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.nav {
+.footer-nav {
     margin-left: 20px;
 }
 
@@ -350,11 +336,13 @@ footer {
         width: 20%;
     }
 
-    .back-img {
+    .banner-img {
         padding: 60px;
     }
 
+/* --------------------------------- */
 
+   
     
     .container {
         display: grid;
