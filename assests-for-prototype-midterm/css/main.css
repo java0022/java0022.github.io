@@ -203,7 +203,7 @@ nav {
 /* ------------- CARD SECTION ----------- */
 
 
-.card{
+.card {
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: 10% 15%; */
@@ -223,13 +223,14 @@ h1 {
 }
 
 
-.gallery h1{
+.gallery h1 {
     margin-top: 50px;
 }
 
 .gallery {
     background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg);
     padding-bottom: 90px;
+    margin-top: 40px;
 }
 
 
@@ -240,6 +241,7 @@ h1 {
 
 .team {
     background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg);
+    margin-bottom: 40px;
 }
 
 /* ------------- END CARD SECTION ----------- */
@@ -247,25 +249,28 @@ h1 {
 /* ------------ PROMOTIONAL BANNER SECTION ----------  */
 
 
- h2, .second{
-     display: none;
- }
+h2,
+.second {
+    display: none;
+}
 
 .promotion {
     background-image: url(../Images/photo-1578170265282-b1b1f64a72bf.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    padding: 80px;
+    /* padding: 80px; */
+    padding: 60px;
     background-color: #D6B2AD;
     box-sizing: border-box;
-} 
+}
 
 .promotion p {
     color: white;
     text-align: center;
     line-height: 30px;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
 }
 
 .order {
@@ -273,7 +278,7 @@ h1 {
     margin-top: 30px;
     width: 120px;
     padding: 10px;
-    margin-left: 90px;
+    margin-left: 110px;
     background-color: #0B5375;
     border-radius: 20px;
     box-shadow: 5px 10px 18px #888888;
@@ -290,7 +295,10 @@ h1 {
     background-color: #306177;
 }
 
-/* footer */
+/* ---------------- END PROMOTIONAL BANNER SECTION ----------- */
+
+/* ----------- FOOTER ----------- */
+
 
 footer {
     background-color: #C21C30;
@@ -298,7 +306,7 @@ footer {
     padding-bottom: 10px;
 }
 
-.sm{
+.sm {
     width: 25px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -312,7 +320,8 @@ footer {
     text-decoration: none;
     color: white;
     margin-top: 10px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    margin-right: 20px;
     font-size: 14px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -324,13 +333,24 @@ footer {
 .payment {
     text-align: end;
     margin-right: 20px;
+    /* display: flex;
+    justify-content: flex-end; */
+    margin: 0px 20px 20px 0px;
 }
 
-/* -----------------
-     TABLET STYLES 
--------------------*/
+/* ------------ END FOOTER ------------ */
+
+
+
+/*--------------------------
+       TABLET STYLES 
+----------------------------*/
+
+
 
 @media screen and (min-width: 600px) {
+
+    /* ---------- HEADER SECTION ---------- */
 
     .logo {
         width: 20%;
@@ -340,10 +360,15 @@ footer {
         padding: 60px;
     }
 
-/* --------------------------------- */
+    /* ------------ END HEADER SECTION -------- */
 
-   
-    
+    /*-------------- CARD SECTION ----------  */
+
+    .contain {
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -351,68 +376,91 @@ footer {
         grid-template-areas:
             "section1 section2"
             "section1 section3";
-        /* column-gap: 1em; */
-        margin-bottom: 70px;
+        column-gap: 1em;
+        row-gap: 1em;
+        /* margin-bottom: 70px;
         margin-top: 30px;
         width: 90%;
-        padding-left: 30px;
+        padding-left: 30px; */
+    }
+
+    .card {
+        margin: 70px 50px 90px 50px;
     }
 
     .gallery {
         grid-area: section1;
-        
+        margin-right: 0px;
     }
 
     .cream {
         grid-area: section2;
-        margin-top: 40px;
+        /* margin-top: 40px; */
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
 
     .team {
         grid-area: section3;
-       
-    }
-    
-    
-    h1{
-        font-size: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
     }
 
-    .contain{
-        max-width: 1200px;
-        margin: 0px auto;
+
+    h1 {
+        /* font-size: 20px; */
     }
 
-    /* -------------- Promotion ------------*/
-    
-    h2{
-        display: unset;
-        font-size: 30px;
-        color: white;
-    }
 
-    .promotion p{
-        text-align: left;
-        margin-top: 20px;
-        font-size: 18px;
-    }
-    
-    p.second{
-       display: unset;
-       text-align: center;
-    }
+    /* ----------- END CARD SECTION -------- */
 
-    .paragraph{
-        display: flex;
-    }
+
+    /* -------------- PROMOTIONAL BANNER SECTION ------------*/
 
     .promotion {
         width: 93%;
         margin-left: 35px;
-        padding: 50px;
+        padding: 30px;
+    }
+   
+    h2 {
+        display: unset;
+        font-size: 30px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 15px;
     }
 
-    .order{
+    .promotion p {
+        text-align: left;
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+    p.second {
+        display: unset;
+        text-align: center;
+    }
+
+    .paragraph {
+        display: flex;
+    }
+
+    .order {
         margin-left: 40%;
     }
+}
+
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+----------------------------------*/
+
+
+@media screen and (min-width: 1100px){
+
+    
+    
 }
