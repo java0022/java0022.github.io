@@ -404,7 +404,7 @@ footer {
         grid-area: section3;
         margin-left: 0px;
         margin-top: 0px;
-     }
+    }
 
 
     h1 {
@@ -422,7 +422,7 @@ footer {
         margin-left: 35px;
         padding: 30px;
     }
-   
+
     h2 {
         display: unset;
         font-size: 30px;
@@ -459,33 +459,69 @@ footer {
 ----------------------------------*/
 
 
-@media screen and (min-width: 1100px){
+@media screen and (min-width: 1100px) {
 
     /* -------- HEADER SECTION ---------- */
-    
-    .menu-icon{
+
+    .menu-icon {
         display: none;
     }
 
-    nav{
+    nav {
         display: unset;
     }
 
-    nav ul{
+    header {
+        display: grid;
+        grid-template-columns: 3fr 1fr 3fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "sectiona sectionb sectionc";
+        align-items: center;
+    }
+
+    .header {
+        grid-area: sectionb;
+    }
+
+    .left {
+        grid-area: sectiona;
+    }
+
+    .right {
+        grid-area: sectionc;
+    }
+
+    nav ul {
         display: flex;
         flex-direction: row;
         font-family: 'Dosis', sans-serif;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: space-around;
+        /* align-items: center; */
         font-size: 24px;
         margin-bottom: 30px;
     }
     
-    .header{
+    nav ul a{
+        text-decoration: none;
+        color: black;
+    }
+
+    nav ul a:hover{
+        color:#C21C30;
+        /* background-color:#C21C30 ; */
+    }
+    
+    .header {
         display: flex;
         justify-content: center;
     }
-    .logo{
+
+    .cart {
+        width: 60%;
+    }
+
+    .logo {
         width: 160px;
         margin-top: 20px;
     }
@@ -493,12 +529,12 @@ footer {
     /* -------------- END HEADER SECTION ---------- */
 
     /* ------------- BANNER SECTION ------------ */
-    
-    .banner-img{
-        background-position: 0%  70%;
+
+    .banner-img {
+        background-position: 0% 70%;
     }
 
-    .banner-img p{
+    .banner-img p {
         font-size: 22px;
     }
 
@@ -506,21 +542,25 @@ footer {
 
     /* ----------- CARD SECTION ---------------- */
 
-    .card{
+    .card {
         padding: 100px;
     }
 
-    .gallery, .cream{
+    .gallery,
+    .cream {
         margin-top: 100px;
     }
 
     /* ---------- END CARD SECTION -------------- */
 
     /* ------------ PROMOTION SECTION ----------- */
-    
-    .promotion{
-        margin-left: 50px;
-    }
-    
-}
 
+    .promotion {
+        margin-left: 204px;
+        width: 74%;
+        padding: 50px;
+        display: block;
+    }
+   /* -------------- END PROMOTION SECTION -------- */
+
+}
