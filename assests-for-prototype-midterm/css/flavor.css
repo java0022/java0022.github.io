@@ -1,0 +1,31 @@
+
+h1{
+    color: #072848 ;
+    font-family: 'Dosis', sans-serif; 
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.thin-menu{
+    margin-left: 25px;
+}
+
+
+
+
+.card-cone{
+    width: 89%;
+    height: 290px;
+    margin: 25px;
+    background-color: pink;
+    background-image: url(../images/photo-1554521718-e87e96d67ca5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+section.img p{
+    text-align: center;
+    margin: 35px;
+    line-height: 25px;
+}
