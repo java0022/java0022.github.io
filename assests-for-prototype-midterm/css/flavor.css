@@ -143,7 +143,9 @@ section.nutritional-info p {
 
 @media screen and (min-width: 1100px) {
 
-
+    h1{
+        margin-bottom: 60px;
+    }
     .grid-layout {
         display: grid;
         /* grid-template-columns: 1fr 1fr;
@@ -175,6 +177,10 @@ section.nutritional-info p {
 
     .card-cone{
         margin:0px;
+    }
+
+    section.img .paragraph-detail{
+        margin-bottom: 170px;
     }
 
 }   
