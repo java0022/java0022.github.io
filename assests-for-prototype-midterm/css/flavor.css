@@ -71,8 +71,16 @@ section.nutritional-info p {
 
     .grid-layout {
         display: grid;
+        /* grid-template-columns: 1fr 1fr;
+        column-gap: 2rem; */
         grid-template-columns: 1fr 1fr;
-        column-gap: 2rem;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "area1 area2"
+        "area3 area3";
+    }
+    .product{
+        grid-area: area3;
     }
 
     .card-cone {
@@ -112,6 +120,10 @@ section.nutritional-info p {
         justify-content: space-evenly;
     }
 
+    .hidden{
+        display: none;
+    }
+
 
 
 }
@@ -131,9 +143,38 @@ section.nutritional-info p {
 
 @media screen and (min-width: 1100px) {
 
-    main{
-        background-color: blue;
+
+    .grid-layout {
+        display: grid;
+        /* grid-template-columns: 1fr 1fr;
+        column-gap: 2rem; */
+        grid-template-columns: 1fr 2fr 1.5fr;
+        /* grid-template-rows: 1fr; */
+        grid-template-areas: 
+        "area1 area2 area3";
+    }
+    .hidden{
+        display: unset;
     }
 
- 
-}
+    .product{
+        grid-area: area1;
+    }
+    .product-list {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 40px;
+        /* margin: 0px 30px 0px 30px; */
+        justify-content: space-evenly;
+    }
+
+    .product-list li{
+        margin-bottom: 35px;
+    }
+
+    .card-cone{
+        margin:0px;
+    }
+
+}   
