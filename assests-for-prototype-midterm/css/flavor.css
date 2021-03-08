@@ -9,7 +9,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.thin-menu {
+.im-menu-list {
     margin-left: 25px;
 }
 
@@ -66,7 +66,7 @@ section.nutritional-info p {
 
 @media screen and (min-width: 600px) {
 
-    .thin-menu {
+    .im-menu-list {
         display: none;
     }
 
