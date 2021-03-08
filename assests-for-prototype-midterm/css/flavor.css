@@ -1,31 +1,139 @@
+.product {
+    display: none;
+}
 
-h1{
-    color: #072848 ;
-    font-family: 'Dosis', sans-serif; 
+h1 {
+    color: #072848;
+    font-family: 'Dosis', sans-serif;
     font-size: 45px;
     margin-bottom: 20px;
 }
 
-.thin-menu{
+.thin-menu {
     margin-left: 25px;
 }
 
 
-
-
-.card-cone{
-    width: 89%;
-    height: 290px;
+.card-cone {
+    /* width: 89%;
+    height: 290px; */
+    padding: 100px;
+    height: auto;
     margin: 25px;
-    background-color: pink;
     background-image: url(../images/photo-1554521718-e87e96d67ca5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 
-section.img p{
+section.img p {
     text-align: center;
     margin: 35px;
     line-height: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.paragraph-detail {
+    color: #C2C2C2;
+}
+
+h3,
+section.nutritional-info p {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    /* margin-bottom: 25px; */
+    color: #7F7F7F;
+    margin-top: 100px;
+
+}
+
+section.nutritional-info p {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 25px;
+    margin: 30px 35px 90px 35px;
+}
+
+/* ---------------------------
+ 
+         TABLET STYLES 
+
+------------------------------*/
+
+@media screen and (min-width: 600px) {
+
+    .thin-menu {
+        display: none;
+    }
+
+    .grid-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+
+    .card-cone {
+        /* width: 89%;
+        height: 290px; */
+        padding: 200px;
+        height: auto;
+        margin: 25px;
+        background-image: url(../images/photo-1554521718-e87e96d67ca5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    section.img p{
+        text-align: left;
+    }
+
+    section.img .paragraph-detail{
+        text-align: center;
+    }
+
+    section.nutritional-info p {
+        text-align: left;
+    }
+
+    .product {
+        display: unset;
+
+    }
+
+    .product-list {
+        display: flex;
+        border: 1px solid black;
+        padding: 40px;
+        margin: 0px 30px 0px 30px;
+        justify-content: space-evenly;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+----------------------------------*/
+
+
+@media screen and (min-width: 1100px) {
+
+    main{
+        background-color: blue;
+    }
+
+ 
 }
