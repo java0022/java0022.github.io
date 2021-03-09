@@ -39,6 +39,8 @@
     
 } */ 
 
+
+
 .align{
     display: flex;
     justify-content: space-between;
@@ -51,3 +53,22 @@ input{
     border: none;
     border-bottom: 1px solid black;
 }
+
+
+.box-pink{
+    background-color:#F1D5D8 ;
+    border-radius: 30px;
+    padding: 2px;
+    margin-top: 50px;
+}
+
+.box-pink ul{
+    margin: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.coupon{
+    text-align: center;
+}
+
