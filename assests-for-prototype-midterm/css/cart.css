@@ -1,1 +1,13 @@
 
+.icecream-product-img img{
+    max-width: 28%;
+    height: auto;
+}
+
+.border{
+    margin: 25px;
+}
+
+.hide{
+    display: none;
+}
