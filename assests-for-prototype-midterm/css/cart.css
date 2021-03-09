@@ -1,6 +1,6 @@
 
 .icecream-product-img img{
-    max-width: 28%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -10,4 +10,44 @@
 
 .hide{
     display: none;
+}
+
+.box-one{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 16px;
+}
+
+.cart-info{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 15px;
+    line-height: 18px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+
+/* .cart-info li:nth-last-child(2){
+    color: tomato;
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.cart-info li:nth-last-child(4){
+    color: tomato;
+    
+} */ 
+
+.align{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+input{
+    margin-right: 50px;
+    width: 35px;
+    border: none;
+    border-bottom: 1px solid black;
 }
