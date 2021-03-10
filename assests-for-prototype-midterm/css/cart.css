@@ -41,16 +41,13 @@
     margin-top: 16px;
 }
 
-/* .two{
-    display: none;
-} */
-/* 
-.align{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-} */
+.name{
+    font-weight: bold;
+}
 
+.desc{
+    font-weight: lighter;
+}
 input{
     margin-right: 50px;
     width: 35px;
@@ -87,13 +84,15 @@ input{
     padding: 10px;
     background-color: #0B5375;
     border-radius: 20px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    margin-left: 34%;
 }
 .next a{
     text-decoration: none;
     color: white;
     font-family:'Josefin Sans', sans-serif;
     font-weight: lighter;
+    font-size: 18px;
 }
 
 .coupon{
@@ -116,7 +115,9 @@ input{
         display: unset;
     }
 
-    
+    .prod-desc{
+        font-size: 18px;
+    }
     .row-same{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -160,7 +161,7 @@ input{
        text-align: left;
    }
    .next{
-       margin-left: 240px;
+       margin-left: 40%;
 
    }
    
@@ -173,5 +174,35 @@ input{
 
 @media screen and (min-width: 1100px) {
 
-    
+    /* main{
+        background-color: lightpink;
+    } */
+
+    .row-same{
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    /* column-gap: 16px; */
+    }
+
+    .icecream-product-img img{
+        max-width: 100%;
+       
+    }
+
+    .desc{
+        margin-top: 20px;
+    }
+
+    .value, .cost{
+        margin-top: 60px;
+    }
+   
+    .prod-amount{
+        font-size: 18px;
+    }
+
+    .next{
+        margin-left: 45%;
+ 
+    }
 }
