@@ -182,8 +182,8 @@ nav {
 /* ----------- BANNER SECTION----------*/
 
 .banner-img {
-    background-image: url(../Images/photo-1515037028865-0a2a82603f7c.jpg);
-    background-image: url(../images/photo-1515037028865-0a2a82603f7c.jpg
+    /* background-image: url(../Images/photo-1515037028865-0a2a82603f7c.jpg); */
+    background-image: url(../images/photo-1515037028865-0a2a82603f7c.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -230,7 +230,7 @@ h1 {
 
 .gallery {
     /* background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg); */
-    background-image: url(../image/photo-1591636687027-a157c53387cd.jpg);
+    background-image: url(../images/photo-1591636687027-a157c53387cd.jpg);
     padding-bottom: 90px;
     margin-top: 40px;
 }
@@ -239,12 +239,12 @@ h1 {
 
 .cream {
     /* background-image: url(../Images/photo-1588195539297-f0b4efdb5472.jpg); */
-    background-image: url(../image/photo-1588195539297-f0b4efdb5472.jpg);
+    background-image: url(../images/photo-1588195539297-f0b4efdb5472.jpg);
 }
 
 .team {
     /* background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg); */
-    background-image: url(../image/photo-1551645701-0e68cfc880f0.jpg);
+    background-image: url(../images/photo-1551645701-0e68cfc880f0.jpg);
     margin-bottom: 40px;
 }
 
@@ -260,7 +260,7 @@ h2,
 
 .promotion {
     /* background-image: url(../Images/photo-1578170265282-b1b1f64a72bf.jpg); */
-    background-image: url(../image/photo-1578170265282-b1b1f64a72bf.jpg);
+    background-image: url(../images/photo-1578170265282-b1b1f64a72bf.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;

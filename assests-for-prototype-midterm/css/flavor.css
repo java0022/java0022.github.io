@@ -21,7 +21,7 @@ h1 {
     height: auto;
     margin: 25px;
     /* background-image: url(../images/photo-1554521718-e87e96d67ca5.jpg); */
-    background-image: url(../image/photo-1554521718-e87e96d67ca5.jpg);
+    background-image: url(../images/photo-1554521718-e87e96d67ca5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -90,11 +90,7 @@ section.nutritional-info p {
         padding: 200px;
         height: auto;
         margin: 25px;
-        /* background-image: url(../images/photo-1554521718-e87e96d67ca5.jpg); */
-        background-image: url(../image/photo-1554521718-e87e96d67ca5.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;
+        
     }
 
     section.img p{
