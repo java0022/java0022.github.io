@@ -174,7 +174,7 @@ section.nutritional-info p {
         justify-content: space-evenly;
     }
 
-    .product-list li{
+    .product-list .list{
         margin-bottom: 35px;
     }
 
