@@ -224,6 +224,7 @@ h1 {
 }
 
 
+
 .gallery h1 {
     margin-top: 50px;
 }
@@ -289,7 +290,7 @@ h2,
     box-shadow: 5px 10px 18px #888888;
 }
 
-.order a {
+.order a{
     text-decoration: none;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -297,7 +298,8 @@ h2,
 }
 
 .order:hover {
-    background-color: #306177;
+    background-color:#1275a3 ;
+    transition: background-color 1s ease-out 0.4s;
 }
 
 /* ---------------- END PROMOTIONAL BANNER SECTION ----------- */

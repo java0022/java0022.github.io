@@ -38,17 +38,19 @@ section.img p {
     color: #C2C2C2;
 }
 
-h3,
+h2,
 section.nutritional-info p {
     text-align: center;
 }
 
-h3 {
+h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     /* margin-bottom: 25px; */
     color: #7F7F7F;
     margin-top: 100px;
+    display: unset;
+    margin-left: 8%;
 
 }
 
