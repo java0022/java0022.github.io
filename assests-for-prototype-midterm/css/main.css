@@ -224,8 +224,14 @@ h1 {
     opacity: 0.6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
+    transition: background-color 0.8s;
 }
 
+.white-back:hover{
+    background-color: #c47c85;
+    transition: background-color 0.8s;
+    /* transform: scale(1.1); */
+}
 
 
 .gallery h1 {
@@ -550,6 +556,13 @@ footer {
     .im-shopping-cart {
         width: 60%;
         color: #C21C30;
+        
+    }
+    
+    .im-shopping-cart:active{
+        color: #640f19;
+        transform: rotate(1turn);
+        transition-duration: 0.6s;
     }
 
     .logo {
