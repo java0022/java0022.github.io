@@ -86,6 +86,7 @@ input{
     border-radius: 20px;
     /* margin-left: 150px; */
     margin-left: 34%;
+    box-shadow: 5px 10px 18px #888888;
 }
 .next a{
     text-decoration: none;
@@ -93,6 +94,10 @@ input{
     font-family:'Josefin Sans', sans-serif;
     font-weight: lighter;
     font-size: 18px;
+}
+
+.next:hover{
+    background-color: #306177;
 }
 
 .coupon{
