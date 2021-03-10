@@ -1,51 +1,55 @@
 
+/* ------------------
+     Mobile Styles 
+---------------------*/
+
+/* --------- Product Information Section ------ */
+
 .icecream-product-img img{
     max-width: 90%;
     height: auto;
 }
 
-.border{
+
+
+.row{
     margin: 25px;
 }
 
-.hide{
-    display: none;
-}
 
-.box-one{
+
+.row-same{
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 16px;
 }
 
-.cart-info{
+.quantity, .price, .cost, .value{
+    display: none;
+}
+
+   
+.product-description{
     font-family: 'Josefin Sans', sans-serif;
-    margin-top: 15px;
+    margin-top: 10px;
     line-height: 18px;
-    /* display: flex;
-    flex-direction: column; */
 }
 
-
-
-/* .cart-info li:nth-last-child(2){
-    color: tomato;
-    align-self: flex-end;
-    margin-right: 50px;
+.prod-desc-two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
 }
 
-.cart-info li:nth-last-child(4){
-    color: tomato;
-    
-} */ 
-
-
-
+/* .two{
+    display: none;
+} */
+/* 
 .align{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-}
+} */
 
 input{
     margin-right: 50px;
@@ -55,6 +59,8 @@ input{
 }
 
 
+/* ---------- Sub total section ------ */
+
 .box-pink{
     background-color:#F1D5D8 ;
     border-radius: 30px;
@@ -62,13 +68,110 @@ input{
     margin-top: 50px;
 }
 
-.box-pink ul{
+.prod-amount{
     margin: 15px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coupon, .next{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.next{
+    width: 120px;
+    padding: 10px;
+    background-color: #0B5375;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+.next a{
+    text-decoration: none;
+    color: white;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }
 
 .coupon{
-    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
 }
 
+
+/* -------------------
+   TABLET STYLES 
+---------------------*/
+
+@media screen and (min-width: 600px) {
+
+
+    .prod-desc-two{
+        display: none;
+    }
+
+    .quantity, .price, .cost, .value{
+        display: unset;
+    }
+
+    
+    .row-same{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .icecream-product-img img{
+        max-width: 30%;
+    }
+
+    .product-description{
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       justify-items: center;
+    }
+
+    .prod-desc{
+        margin: 10px;
+    }
+
+    .prod-desc-three{
+        display: flex;
+        flex-direction: column;
+    }
+    .value{
+        margin-top: 40px;
+    }
+
+    .prod-desc-four{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cost{
+        margin-top: 40px;
+    }
+
+   /*----------- Coupon section ------  */
+
+   .coupon{
+       text-align: left;
+   }
+   .next{
+       margin-left: 240px;
+
+   }
+   
+}
+
+
+/* ---------------------
+      DESKTOP STYLES
+----------------------*/
+
+@media screen and (min-width: 1100px) {
+
+    
+}
