@@ -216,6 +216,9 @@ nav {
 h1 {
     text-align: center;
     padding: 25px;
+}
+
+.white-back{
     box-sizing: border-box;
     background-color: white;
     opacity: 0.6;
@@ -338,12 +341,21 @@ footer {
     margin-left: 20px;
 }
 
-.payment {
+/* .payment {
     text-align: end;
     margin-right: 20px;
-    /* display: flex;
-    justify-content: flex-end; */
+    display: flex;
+    justify-content: flex-end;
     margin: 0px 20px 20px 0px;
+} */
+
+.nav-payment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment{
+    margin-right: 20px;
 }
 
 .im-cc-paypal{
