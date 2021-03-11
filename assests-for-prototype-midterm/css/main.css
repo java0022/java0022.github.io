@@ -161,7 +161,7 @@ table {
 }
 
 .logo {
-    width: 30%;
+    width: 60%;
     /* padding-left: 30px; */
     margin-left: 30px;
 }
@@ -389,7 +389,7 @@ footer {
     /* ---------- HEADER SECTION ---------- */
 
     .logo {
-        width: 20%;
+        width: 60%;
     }
 
     .banner-img {
@@ -570,7 +570,35 @@ footer {
         margin-top: 20px;
     }
 
+    /*  adding animtion using @keyframes */
+
+    @keyframes move {
+        /* 0% {transform: rotate(-5deg);}
+        100%{transform: rotate(5deg);} */
+         0%{transform: translateY(-15px);}
+         50%{transform: rotate(-5deg);}
+         100% {transform: rotate(5deg);}
+
+      }
+
+    .logo{
+        animation-name: move;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }  
     
+   .animate{
+    color: aqua;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   }
+    
+
+
+
 
     /* -------------- END HEADER SECTION ---------- */
 
