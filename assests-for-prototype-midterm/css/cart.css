@@ -97,8 +97,11 @@ input{
 }
 
 .next:hover{
-    background-color: #306177;
+    background-color:#1275a3 ;
+    transition: background-color 1s ease-out 0.4s;
 }
+
+
 
 .coupon{
     font-family:'Josefin Sans', sans-serif;
