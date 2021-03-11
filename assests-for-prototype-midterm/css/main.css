@@ -205,12 +205,11 @@ nav {
 
 /* ------------- Card Section ----------- */
 
-
+/* Added CSS Transition property on the hover state for the white background for h1 */
 
 .card {
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: 10% 15%; */
     padding: 50px;
     height: auto;
     margin: 25px;
@@ -233,7 +232,6 @@ h1 {
 .white-back:hover{
     background-color: #c47c85;
     transition: background-color 0.8s;
-    /* transform: scale(1.1); */
 }
 
 
@@ -242,44 +240,39 @@ h1 {
 }
 
 .gallery {
-    /* background-image: url(../Images/photo-1591636687027-a157c53387cd.jpg); */
     background-image: url(../images/photo-1591636687027-a157c53387cd.jpg);
     padding-bottom: 90px;
     margin-top: 40px;
 }
 
-
-
 .cream {
-    /* background-image: url(../Images/photo-1588195539297-f0b4efdb5472.jpg); */
     background-image: url(../images/photo-1588195539297-f0b4efdb5472.jpg);
 }
 
 .team {
-    /* background-image: url(../Images/photo-1551645701-0e68cfc880f0.jpg); */
     background-image: url(../images/photo-1551645701-0e68cfc880f0.jpg);
     margin-bottom: 40px;
 }
 
-/* ------------- END CARD SECTION ----------- */
+/* ------------- End Card Section ----------- */
 
-/* ------------ PROMOTIONAL BANNER SECTION ----------  */
+/* ------------ Promotional Banner Section ----------  */
 
+/* Used display none for the title and second paragraph in the promotion section - Used the 
+transition property on the hover state for the order now anchor tag  */
 
-h2,
+.conceal,
 .second {
     display: none;
 }
 
 .promotion {
-    /* background-image: url(../Images/photo-1578170265282-b1b1f64a72bf.jpg); */
     background-image: url(../images/photo-1578170265282-b1b1f64a72bf.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    /* padding: 80px; */
     padding: 60px;
-    background-color: #D6B2AD;
+    background-color: #d8a7a0;
     box-sizing: border-box;
 }
 
@@ -296,7 +289,7 @@ h2,
     margin-top: 30px;
     width: 120px;
     padding: 10px;
-    margin-left: 110px;
+    margin-left: 30%;
     background-color: #0B5375;
     border-radius: 20px;
     box-shadow: 5px 10px 18px #888888;
@@ -314,10 +307,11 @@ h2,
     transition: background-color 1s ease-out 0.4s;
 }
 
-/* ---------------- END PROMOTIONAL BANNER SECTION ----------- */
+/* ---------------- End Promotional Banner section ----------- */
 
-/* ----------- FOOTER ----------- */
-
+/* ----------- Footer ----------- */
+/* Used social media and payment icon fonts  and also used display flex on the footer-nav and 
+payment icons to align them */
 
 footer {
     background-color: #C21C30;
@@ -340,7 +334,6 @@ footer {
     text-decoration: none;
     color: white;
     margin-top: 10px;
-    /* padding-right: 20px; */
     margin-right: 20px;
     font-size: 14px;
     font-family: 'Josefin Sans', sans-serif;
@@ -349,14 +342,6 @@ footer {
 .footer-nav {
     margin-left: 20px;
 }
-
-/* .payment {
-    text-align: end;
-    margin-right: 20px;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0px 20px 20px 0px;
-} */
 
 .nav-payment{
     display: flex;
@@ -377,7 +362,7 @@ footer {
     font-size: 35px;
 }
 
-/* ------------ END FOOTER ------------ */
+/* ------------ End Footer ------------ */
 
 
 
@@ -385,11 +370,13 @@ footer {
        TABLET STYLES 
 ----------------------------*/
 
-
+/* Used media queries to show responsive state */
 
 @media screen and (min-width: 600px) {
 
-    /* ---------- HEADER SECTION ---------- */
+    /* ---------- Header Section ---------- */
+
+    /* Increased the size of the logo */
 
     .logo {
         width: 60%;
@@ -399,10 +386,14 @@ footer {
         padding: 60px;
     }
 
-    /* ------------ END HEADER SECTION -------- */
+    /* ------------ End Header Section -------- */
 
-    /*-------------- CARD SECTION ----------  */
+    /*-------------- Card Section----------  */
 
+    /* Used margin 0px auto to center the card section, the footer-nav, social media icons and the 
+    payment icons - Used CSS Grid to create a two column and 1 row layout for the card section and
+    grid-template areas to section each card appropriately  */
+    
     .contain {
         max-width: 1200px;
         margin: 0px auto;
@@ -417,10 +408,6 @@ footer {
             "section1 section3";
         column-gap: 1em;
         row-gap: 1em;
-        /* margin-bottom: 70px;
-        margin-top: 30px;
-        width: 90%;
-        padding-left: 30px; */
     }
 
     .card {
@@ -446,23 +433,22 @@ footer {
     }
 
 
-    h1 {
-        /* font-size: 20px; */
-    }
+    /* ----------- End Card Section -------- */
 
 
-    /* ----------- END CARD SECTION -------- */
+    /* -------------- Promotional Banner Section ------------*/
 
-
-    /* -------------- PROMOTIONAL BANNER SECTION ------------*/
+    /* Used display:unset to make the title and second paragraph visible and used display:flex to align
+    both the paragraphs  */
 
     .promotion {
-        width: 93%;
-        margin-left: 35px;
+        /* width: 93%;
+        margin-left: 35px; */
         padding: 30px;
+        margin: 0px 30px 0px 30px;
     }
 
-    h2 {
+    .conceal {
         display: unset;
         font-size: 30px;
         color: white;
@@ -491,16 +477,30 @@ footer {
     }
 }
 
+/* ----------- End Promotional Banner Section ----------- */
+
+
 /* -----------------------------
 
         DESKTOP STYLES 
 
-----------------------------------*/
+---------------------------------*/
 
+
+/* Used media queries to show responsive state  */
 
 @media screen and (min-width: 1100px) {
 
-    /* -------- HEADER SECTION ---------- */
+    /* -------- Header Section ---------- */
+
+/*  -Used display:none to hide the hamburger menu and display:unset on the nav to make it visible 
+    - Used display Grid on the header to create a 3 column, 1 row layout to section half the nav 
+      before and half the nav after the logo.
+    - Used display flex on the navigation to create space between the navigation. 
+    - Added a seperate color on the navigation on the hover state.
+    - Added CSS transform property on the shopping cart icon font to make it rotate in its active state.
+    - Used CSS Animation property and @keyframes on the "Flavor" section in the navigation to indicate 
+      that it leads to the flavor page.  */
 
     .im-menu {
         display: none;
@@ -536,7 +536,6 @@ footer {
         flex-direction: row;
         font-family: 'Dosis', sans-serif;
         justify-content: space-around;
-        /* align-items: center; */
         font-size: 24px;
         margin-bottom: 30px;
     }
@@ -548,7 +547,6 @@ footer {
 
     nav ul a:hover{
         color:#C21C30;
-        /* background-color:#C21C30 ; */
     }
 
     .header {
@@ -576,12 +574,12 @@ footer {
     /*  adding animtion using @keyframes */
 
     @keyframes move {
-        /* 0% {transform: rotate(-5deg);}
-        100%{transform: rotate(5deg);} */
-         0%{transform: translateY(-15px);}
+        0% {transform: rotate(-5deg);}
+        100%{transform: rotate(5deg);}
+         /* 0%{transform: translateY(-15px);}
          50%{transform: rotate(-5deg);}
-         100% {transform: rotate(5deg);}
-
+         100% {transform: rotate(5deg);} */
+        
       }
       
       .animate{
@@ -592,22 +590,9 @@ footer {
         animation-direction: alternate;
        }
 
-    .logo{
-        animation-name: move;
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-    }  
-    
-    
-    
+    /* -------------- End Header Section ---------- */
 
-
-
-
-    /* -------------- END HEADER SECTION ---------- */
-
-    /* ------------- BANNER SECTION ------------ */
+    /* ------------- Banner Section ------------ */
 
     .banner-img {
         background-position: 0% 70%;
@@ -617,9 +602,9 @@ footer {
         font-size: 22px;
     }
 
-    /* ---------- END BANNER SECTION ------------- */
+    /* ---------- End Banner Section ------------- */
 
-    /* ----------- CARD SECTION ---------------- */
+    /* ----------- Card Section ---------------- */
 
     .card {
         padding: 100px;
@@ -629,17 +614,23 @@ footer {
     .cream {
         margin-top: 100px;
     }
+    
+    .gallery .white-back{
+        margin-top: 150px;
+    }
 
-    /* ---------- END CARD SECTION -------------- */
+    /* ---------- End Card Section -------------- */
 
-    /* ------------ PROMOTION SECTION ----------- */
+    /* ------------ Promotional Banner Section ----------- */
 
     .promotion {
-        margin-left: 204px;
+
+        /* margin-left: 204px;
         width: 74%;
         padding: 50px;
-        display: block;
+        display: block; */
+        /* margin: 0px 200px 0px 200px; */
     }
-   /* -------------- END PROMOTION SECTION -------- */
+   /* -------------- End Promotional Banner Section -------- */
 
 }
