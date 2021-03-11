@@ -442,8 +442,6 @@ footer {
     both the paragraphs  */
 
     .promotion {
-        /* width: 93%;
-        margin-left: 35px; */
         padding: 30px;
         margin: 0px 30px 0px 30px;
     }
@@ -630,7 +628,14 @@ footer {
         padding: 50px;
         display: block; */
         /* margin: 0px 200px 0px 200px; */
+        padding: 40px;
     }
+
+    .order {
+        margin-left: 43%;
+    }
+
+
    /* -------------- End Promotional Banner Section -------- */
 
 }
