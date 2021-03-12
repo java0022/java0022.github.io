@@ -5,6 +5,7 @@
 /* ---------------------
      MOBILE STYLES 
 ----------------------*/
+
 /* Used display:none on the product section to hide  products in the mobile version */
 
 .product {
@@ -193,6 +194,9 @@ section.nutritional-info p {
    /*  ----------------End Image - Nutritional Information - Product Section -----------------*/
 
 
+
+
+
 /* -----------------------------
 
         DESKTOP STYLES 
@@ -236,9 +240,23 @@ the sections appropriately  */
 
  /*  ----------------End Image - Nutritional Information - Product Section -----------------*/   
 
- 
 
-    .product-list {
+   /* ----- Image Section----- */
+
+    .card-cone {
+        padding-top: 300px;
+        margin: 0px;
+    }
+
+    section.img .paragraph-detail{
+        margin-bottom: 70px;
+    }
+
+    /* ----- End Image Section----- */
+    
+    /* ---- Product Section ---- */
+     
+   .product-list {
         display: flex;
         flex-direction: column;
         border: 1px solid black;
@@ -251,13 +269,6 @@ the sections appropriately  */
         margin-bottom: 35px;
     }
 
-    .card-cone{
-        margin:0px;
-    }
-
-    section.img .paragraph-detail{
-        margin-bottom: 170px;
-    }
-    
+    /* ----End Product Section ---- */
     
 }   
