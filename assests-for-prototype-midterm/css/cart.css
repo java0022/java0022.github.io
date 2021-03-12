@@ -139,7 +139,7 @@ input{
         border: 1px solid black;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-       justify-items: center;
+        justify-items: center;
     }
 
     .prod-desc{
@@ -152,6 +152,10 @@ input{
     }
     .value{
         margin-top: 40px;
+    }
+
+    input{
+        width: 70px;
     }
 
     .prod-desc-four{
@@ -182,10 +186,6 @@ input{
 
 @media screen and (min-width: 1100px) {
 
-    /* main{
-        background-color: lightpink;
-    } */
-
     .row-same{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr;
@@ -194,6 +194,7 @@ input{
 
     .icecream-product-img img{
         max-width: 100%;
+        margin-top: 10px;
        
     }
 
