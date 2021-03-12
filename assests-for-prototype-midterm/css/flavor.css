@@ -255,7 +255,8 @@ the sections appropriately  */
     /* ----- End Image Section----- */
     
     /* ---- Product Section ---- */
-     
+    
+    /* Used display flex to place the product list in a column  */
    .product-list {
         display: flex;
         flex-direction: column;
