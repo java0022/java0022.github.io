@@ -1,22 +1,26 @@
 
+/*  The header and Footer section will be the same as main.css */
+
+
 /* ------------------
+
      Mobile Styles 
+
 ---------------------*/
 
 /* --------- Product Information Section ------ */
 
+/* -Used CSS grid in the product description section to create a 2 column layout
+   - Used display:none on the product info items that will not be shown in the mobile version
+   - Used display flex on one of the product info components to align them.
+*/
 .icecream-product-img img{
     max-width: 90%;
-    height: auto;
 }
-
-
 
 .row{
     margin: 25px;
 }
-
-
 
 .row-same{
     display: grid;
@@ -55,8 +59,10 @@ input{
     border-bottom: 1px solid black;
 }
 
+/* --------- End Product Information Section ------ */
 
 /* ---------- Sub total section ------ */
+
 
 .box-pink{
     background-color:#F1D5D8 ;
@@ -107,13 +113,26 @@ input{
     font-family:'Josefin Sans', sans-serif;
 }
 
+/* ----------End Sub total section ------ */
+
+
 
 /* -------------------
-   TABLET STYLES 
+
+    TABLET STYLES 
+
 ---------------------*/
+
+/* Used media queries to show responsive state */
 
 @media screen and (min-width: 600px) {
 
+/* --------- Product Information Section ------ */
+
+/*  - display display none to hide the product-info that will
+      only be show in the mobile version and not the tablet/desktop version.
+    - Used CSS Grid to create a 1 column, 2 rows layout to position the image on top of the
+      product information table.  */
 
     .prod-desc-two{
         display: none;
@@ -126,6 +145,7 @@ input{
     .prod-desc{
         font-size: 18px;
     }
+
     .row-same{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
