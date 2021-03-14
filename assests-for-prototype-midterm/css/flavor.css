@@ -1,4 +1,3 @@
-
 /*  The header and Footer section will be the same as main.css */
 
 
@@ -63,7 +62,8 @@ section.img p {
 /* -------------- Nutritional Information Section ------------ */
 
 
-h2, section.nutritional-info p {
+h2,
+section.nutritional-info p {
     text-align: center;
 }
 
@@ -110,46 +110,48 @@ section.nutritional-info p {
 
     /*  ---------------- Image - Nutritional Information - Product Section -----------------*/
 
-/* -Used display:unset to make the product section visible for the tablet version
+    /* -Used display:unset to make the product section visible for the tablet version
    - Used CSS Grid to create a 2 column, 1 row layout and used grid-template-areas to 
     place each section appropriately. */
-   
+
     .product {
         display: unset;
 
     }
-   .grid-layout {
+
+    .grid-layout {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        grid-template-areas: 
-        "area1 area2"
-        "area3 area3";
+        grid-template-areas:
+            "area1 area2"
+            "area3 area3";
     }
-    .product{
+
+    .product {
         grid-area: area3;
     }
 
-    .img{
+    .img {
         grid-area: area1;
     }
 
-    .nutritional-info{
+    .nutritional-info {
         grid-area: area2;
     }
 
-   /* ----- Image Section----- */
+    /* ----- Image Section----- */
 
-   .card-cone {
+    .card-cone {
         padding: 200px;
         margin: 25px;
     }
 
-    section.img .paragraph-detail{
+    section.img .paragraph-detail {
         text-align: center;
     }
 
-    section.img p{
+    section.img p {
         text-align: left;
         margin: 35px;
     }
@@ -158,7 +160,7 @@ section.nutritional-info p {
 
     /* ---- Nutritional Information Section ---- */
 
-    h2{
+    h2 {
         display: unset;
         margin-left: 8%;
     }
@@ -167,11 +169,11 @@ section.nutritional-info p {
         text-align: left;
     }
 
-   /* ---- End Nutritional Information Section ---- */
+    /* ---- End Nutritional Information Section ---- */
 
-   /* ---- Product Section ---- */
+    /* ---- Product Section ---- */
 
-   /*-Used Display flex to align all the product names
+    /*-Used Display flex to align all the product names
      - Also used display none to hide the rest of the product list which will be 
        visible in the desktop version */
 
@@ -184,14 +186,15 @@ section.nutritional-info p {
         font-family: 'Josefin Sans', sans-serif;
     }
 
-    .hidden{
+    .hidden {
         display: none;
     }
 
-   /* ---- End Product Section ---- */
+    /* ---- End Product Section ---- */
 
-} 
-   /*  ----------------End Image - Nutritional Information - Product Section -----------------*/
+}
+
+/*  ----------------End Image - Nutritional Information - Product Section -----------------*/
 
 
 
@@ -207,57 +210,58 @@ section.nutritional-info p {
 
 @media screen and (min-width: 1100px) {
 
-    h1{
+    h1 {
         margin-bottom: 60px;
     }
 
-/*  ---------------- Image - Nutritional Information - Product Section -----------------*/
+    /*  ---------------- Image - Nutritional Information - Product Section -----------------*/
 
-/* -Used CSS Grid to chnage the layout but introducing a 3 column layout and using grid-template-areas to place 
+    /* -Used CSS Grid to chnage the layout but introducing a 3 column layout and using grid-template-areas to place 
 the sections appropriately  */
 
     .grid-layout {
         display: grid;
         grid-template-columns: 1fr 2fr 1.5fr;
-        grid-template-areas: 
-        "area1 area2 area3";
+        grid-template-areas:
+            "area1 area2 area3";
     }
-    .hidden{
+
+    .hidden {
         display: unset;
     }
 
-    .product{
+    .product {
         grid-area: area1;
     }
 
-    .img{
+    .img {
         grid-area: area2;
     }
 
-    .nutritional-info{
+    .nutritional-info {
         grid-area: area3;
     }
 
- /*  ----------------End Image - Nutritional Information - Product Section -----------------*/   
+    /*  ----------------End Image - Nutritional Information - Product Section -----------------*/
 
 
-   /* ----- Image Section----- */
+    /* ----- Image Section----- */
 
     .card-cone {
         padding-top: 300px;
         margin: 0px;
     }
 
-    section.img .paragraph-detail{
+    section.img .paragraph-detail {
         margin-bottom: 70px;
     }
 
     /* ----- End Image Section----- */
-    
+
     /* ---- Product Section ---- */
-    
+
     /* Used display flex to place the product list in a column  */
-   .product-list {
+    .product-list {
         display: flex;
         flex-direction: column;
         border: 1px solid black;
@@ -266,10 +270,10 @@ the sections appropriately  */
         justify-content: space-evenly;
     }
 
-    .product-list .list{
+    .product-list .list {
         margin-bottom: 35px;
     }
 
     /* ----End Product Section ---- */
-    
-}   
+
+}

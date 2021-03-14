@@ -222,7 +222,7 @@ h1 {
     padding: 25px;
 }
 
-.white-back{
+.white-back {
     box-sizing: border-box;
     background-color: white;
     opacity: 0.6;
@@ -231,7 +231,7 @@ h1 {
     transition: background-color 0.8s;
 }
 
-.white-back:hover{
+.white-back:hover {
     background-color: #c47c85;
     transition: background-color 0.8s;
 }
@@ -297,7 +297,7 @@ transition property on the hover state for the order now anchor tag  */
     box-shadow: 5px 10px 18px #888888;
 }
 
-.order a{
+.order a {
     text-decoration: none;
     color: white;
     font-family: 'Josefin Sans', sans-serif;
@@ -305,7 +305,7 @@ transition property on the hover state for the order now anchor tag  */
 }
 
 .order:hover {
-    background-color:#1275a3 ;
+    background-color: #1275a3;
     transition: background-color 1s ease-out 0.4s;
 }
 
@@ -346,21 +346,21 @@ footer {
     margin-left: 20px;
 }
 
-.nav-payment{
+.nav-payment {
     display: flex;
     justify-content: space-between;
 }
 
-.payment{
+.payment {
     margin-right: 20px;
 }
 
-.im-cc-paypal{
+.im-cc-paypal {
     color: #2DABE6;
     font-size: 35px;
 }
 
-.im-cc-visa{
+.im-cc-visa {
     color: white;
     font-size: 35px;
 }
@@ -396,7 +396,7 @@ footer {
     /* Used margin 0px auto to center the card section, the footer-nav, social media icons and the 
     payment icons - Used CSS Grid to create a two column and 1 row layout for the card section and
     grid-template areas to section each card appropriately  */
-    
+
     .contain {
         max-width: 1200px;
         margin: 0px auto;
@@ -435,7 +435,7 @@ footer {
         margin-top: 0px;
     }
 
-    .gallery .white-back{
+    .gallery .white-back {
         margin-top: 100px;
     }
 
@@ -498,7 +498,7 @@ footer {
 
     /* -------- Header Section ---------- */
 
-/*  -Used display:none to hide the hamburger menu and display:unset on the nav to make it visible 
+    /*  -Used display:none to hide the hamburger menu and display:unset on the nav to make it visible 
     - Used display Grid on the header to create a 3 column, 1 row layout to section half the nav 
       before and half the nav after the logo.
     - Used display flex on the navigation to create space between the navigation. 
@@ -544,14 +544,14 @@ footer {
         font-size: 24px;
         margin-bottom: 30px;
     }
-    
-    nav ul a{
+
+    nav ul a {
         text-decoration: none;
         color: black;
     }
 
-    nav ul a:hover{
-        color:#C21C30;
+    nav ul a:hover {
+        color: #C21C30;
     }
 
     .header {
@@ -562,10 +562,10 @@ footer {
     .im-shopping-cart {
         width: 60%;
         color: #C21C30;
-        
+
     }
-    
-    .im-shopping-cart:active{
+
+    .im-shopping-cart:active {
         color: #640f19;
         transform: rotate(1turn);
         transition-duration: 0.6s;
@@ -579,18 +579,23 @@ footer {
     /*  adding animtion using @keyframes */
 
     @keyframes move {
-        0% {transform: rotate(-5deg);}
-        100%{transform: rotate(5deg);}
-        
-      }
-      
-      .animate{
+        0% {
+            transform: rotate(-5deg);
+        }
+
+        100% {
+            transform: rotate(5deg);
+        }
+
+    }
+
+    .animate {
         color: aqua;
         animation-name: move;
         animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-       }
+    }
 
     /* -------------- End Header Section ---------- */
 
@@ -616,8 +621,8 @@ footer {
     .cream {
         margin-top: 100px;
     }
-    
-    .gallery .white-back{
+
+    .gallery .white-back {
         margin-top: 150px;
     }
 
@@ -634,6 +639,6 @@ footer {
     }
 
 
-   /* -------------- End Promotional Banner Section -------- */
+    /* -------------- End Promotional Banner Section -------- */
 
 }
