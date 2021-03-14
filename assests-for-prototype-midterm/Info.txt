@@ -17,4 +17,4 @@ These fonts were taken from https://fonts.google.com/ :
 
 NOTE:
 
-The font that was originally used for the navigation in the mockup is not available anymore so I used a different font.
+The font that was originally used for the navigation in the mockup is not available anymore so I used a different font. 
