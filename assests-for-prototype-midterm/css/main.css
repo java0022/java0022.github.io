@@ -183,6 +183,7 @@ nav {
 
 /* ----------- Banner Section----------*/
 
+/* Used the background image property to add the image and position it accordingly  */
 
 .banner-img {
     background-image: url(../images/photo-1515037028865-0a2a82603f7c.jpg);
@@ -206,6 +207,7 @@ nav {
 /* ------------- Card Section ----------- */
 
 /* Added CSS Transition property on the hover state for the white background for h1 */
+/* Used the background image property to add the image and position it accordingly  */
 
 .card {
     background-size: cover;
@@ -310,6 +312,7 @@ transition property on the hover state for the order now anchor tag  */
 /* ---------------- End Promotional Banner section ----------- */
 
 /* ----------- Footer ----------- */
+
 /* Used social media and payment icon fonts  and also used display flex on the footer-nav and 
 payment icons to align them */
 
@@ -574,9 +577,6 @@ footer {
     @keyframes move {
         0% {transform: rotate(-5deg);}
         100%{transform: rotate(5deg);}
-         /* 0%{transform: translateY(-15px);}
-         50%{transform: rotate(-5deg);}
-         100% {transform: rotate(5deg);} */
         
       }
       
@@ -622,12 +622,6 @@ footer {
     /* ------------ Promotional Banner Section ----------- */
 
     .promotion {
-
-        /* margin-left: 204px;
-        width: 74%;
-        padding: 50px;
-        display: block; */
-        /* margin: 0px 200px 0px 200px; */
         padding: 40px;
     }
 
