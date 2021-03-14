@@ -1,0 +1,19 @@
+
+All the icon fonts were taken from:
+
+https://iconmonstr.com/iconicfont/
+
+Al Images were sourced from:
+
+https://unsplash.com/
+
+These fonts were taken from https://fonts.google.com/ :
+
+ font-family: 'Dosis', sans-serif; 
+
+ font-family: 'Josefin Sans', sans-serif;
+
+
+NOTE:
+
+The font that was originally used for the navigation in the mockup is not available anymore so I used a different font. 
