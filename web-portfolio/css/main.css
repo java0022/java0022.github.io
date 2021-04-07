@@ -224,6 +224,21 @@ h1{
 
 /* --------- END RECENT WORKS SECTION ---------- */
 
+/* --------- ABOUT SECTION ---------- */
+
+.f-color{
+    color: #81B1B2;
+    padding: 0px;
+}
+
+.abt-txt{
+    font-size: 20px;
+    margin: 20px 60px 20px 60px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
 
 
 
