@@ -252,6 +252,7 @@ h1{
     font-size: 20px;
     border: 3px solid #084C4D;
     padding: 6px 30px 6px 30px;
+    font-family: 'Playfair Display', serif;
 }
 
 /* --------- END ABOUT SECTION ---------- */
@@ -270,7 +271,28 @@ h1{
     padding-top: 10%;
 }
 
+.click{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    color: #484848;
+}
 
+.info-second a{
+    background-color: white;
+    color: black;
+}
+
+/* --------- END CONTACT SECTION ---------- */
+
+/* --------- FOOTER ---------- */
+
+.bg-green{
+    background-color: #084C4D;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
 
 
 
