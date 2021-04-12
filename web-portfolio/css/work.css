@@ -1,0 +1,71 @@
+/*  The header and Footer section will be the same as main.css */
+
+
+/* ---------------------
+     MOBILE STYLES 
+----------------------*/
+
+h1{
+    color: #DD634C;
+}
+
+.web{
+    background-image: url(../images/responsive\ -\ image\ -\ self.jpg);
+}
+
+.graphic{
+ background-image: url(../images/logo\ ver\ 1.jpg);
+}
+
+.photo{
+background-image: url(../images/1_JAVAID_R.jpg);
+}
+
+.draw{
+background-image: url(../images/Cat_.jpg);
+
+}
+
+.box-portfolio{
+    max-width: 100%;
+    height: 350px;
+    margin: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.box-txt{
+    text-align: center;
+    padding-top: 40%;
+}
+
+.box-portfolio a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+   color: white;
+}
+
+.web{
+    margin-top: 80px;
+}
+
+.draw{
+    margin-bottom: 80px;
+}
+
+
+/* ----------------------
+      TABLET STYLES
+-------------------------*/
+
+
+@media screen and (min-width: 700px) {
+
+    
+}
+
+
+
+
