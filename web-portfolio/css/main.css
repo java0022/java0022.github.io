@@ -299,6 +299,10 @@ h1 {
     color: black;
 }
 
+.hide-contact {
+    display: none;
+}
+
 /* --------- END CONTACT SECTION ---------- */
 
 /* --------- FOOTER ---------- */
@@ -357,7 +361,7 @@ h1 {
         display: block;
         margin: 30px;
         font-size: 40px;
-        color:  #084C4D;
+        color: #084C4D;
     }
 
     .img-cat {
@@ -394,8 +398,8 @@ h1 {
     }
 
     /* --------- RECENT WORKS SECTION ---------- */
-    
-    .about{
+
+    .about {
         background-image: url(../images/dec.jpg);
         background-size: cover;
         background-repeat: no repeat;
@@ -403,12 +407,36 @@ h1 {
         margin: 60px 90px 30px 90px;
     }
 
-    .abt-txt{
+    .abt-txt {
         color: white;
     }
 
-    .info a{
+    .info a {
         background-color: white;
+        font-size: 18px;
+        border: 3px solid #084C4D;
+        padding: 3px 25px 3px 25px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    /* ---------END RECENT WORKS SECTION ---------- */
+
+    /* --------- CONTACT SECTION ---------- */
+
+    .f-contact {
+        padding-top: 5%;
+        color: #084C4D;
+    }
+
+    .click {
+        display: none;
+    }
+
+    .hide-contact {
+        display: block;
+        text-align: center;
+        margin: 20px;
+        font-family: 'Playfair Display', serif;
     }
 
 }
