@@ -148,6 +148,10 @@ table {
     /* margin: 40px; */
 }
 
+html {
+    box-sizing: border-box;
+}
+
 
 /* ----------------------
       MOBILE STYLES
@@ -236,12 +240,12 @@ h1 {
     padding-top: 40%;
 }
 
-.hide-tab a{
+.hide-tab a {
     text-decoration: none;
     color: white;
 }
 
-.hide-tab a:visited{
+.hide-tab a:visited {
     color: white;
 }
 
@@ -277,6 +281,10 @@ h1 {
     border: 3px solid #084C4D;
     padding: 6px 30px 6px 30px;
     font-family: 'Playfair Display', serif;
+}
+
+.info a:hover {
+    background-color: #084C4D;
 }
 
 /* --------- END ABOUT SECTION ---------- */
@@ -318,6 +326,10 @@ h1 {
 
 .bg-green {
     background-color: #084C4D;
+}
+
+.footer-align {
+
     display: flex;
     justify-content: space-between;
     padding: 32px;
@@ -330,6 +342,10 @@ h1 {
 
 .footer-txt {
     font-size: 20px;
+}
+
+.footer-social a:visited{
+    color: white;
 }
 
 /* --------- END FOOTER ---------- */
@@ -379,7 +395,7 @@ h1 {
         width: 50%;
         margin-right: 10px;
         height: 220px;
-        
+
     }
 
     .img-logo {
@@ -499,8 +515,9 @@ h1 {
         font-family: 'Playfair Display', serif;
     }
 
-    li a:hover{
-        color:#042727 ;
+    li a:hover {
+        color: #042727;
+        color: #726153;
     }
 
     /* --------- END HEADER ---------- */
