@@ -143,7 +143,7 @@ table {
 ---------------------*/
 
 .container {
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0px auto;
     /* margin: 40px; */
 }
@@ -175,6 +175,7 @@ div.nav-mobile img {
     color: #9FA4AE;
     margin-top: 20px;
 }
+
 
 /* --------- END HEADER ---------- */
 
@@ -442,3 +443,117 @@ h1 {
 
 }
 
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+---------------------------------*/
+
+
+/* Used media queries to show responsive state  */
+
+@media screen and (min-width: 1000px) {
+
+
+    /* --------- HEADER ---------- */
+
+    nav {
+        display: block;
+        margin: 40px;
+    }
+
+    .im-menu {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div.nav-mobile img {
+        width: 80%;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    ul li {
+        margin: 20px;
+        font-size: 26px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #084C4D;
+        font-family: 'Playfair Display', serif;
+    }
+
+    /* --------- END HEADER ---------- */
+
+    /* --------- SOGAN SECTION ---------- */
+
+    .slogan {
+        margin-top: 0px;
+    }
+
+    .txt {
+        font-size: 30px;
+    }
+
+    /* --------- END SOGAN SECTION ---------- */
+
+    /* --------- RECENT WORKS SECTION ---------- */
+    .hide-mbl{
+        margin-top: 80px;
+    }
+
+    .img-cat, .img-logo, .img-plant{
+      height: 400px;
+    }
+
+    /* --------- END RECENT WORKS SECTION ---------- */
+
+    /*------- ABOUT AND CONTACT SECTION ----------*/
+
+    /* Using CSS Grid */
+
+    .abt-con-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .about{
+        margin:0px;
+        padding: 0px;
+        margin-left: 40px;
+        margin-right: 15px;
+        margin-bottom: 40px;
+    }
+
+    .bg-brown {
+        background-color: #B59A83;
+        max-width: 100%;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+     /*------- END ABOUT AND CONTACT SECTION ----------*/
+
+    /* -------- ABOUT SECTION ---------- */
+
+    .f-color, .abt-txt, .info{
+        text-align: left;
+        margin-left: 30px;
+       
+    }
+
+
+
+    
+
+}
