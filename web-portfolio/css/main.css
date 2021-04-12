@@ -315,14 +315,15 @@ h1{
        margin: 0px;
        width: 50%;
        margin-right: 10px;
+       height: 280px;
    }
 
    .img-logo{
     background-color: crimson;
     width: 50%;
-    height: 350px;
+    height: 280px;
     margin-right: 10px;
-    background-image: url(../images/logo\ edited\ .jpg);
+    background-image: url(../images/logo\ ver\ 1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -331,7 +332,7 @@ h1{
 .img-plant{
     background-color: crimson;
     width: 50%;
-    height: 350px;
+    height: 280px;
     background-image: url(../images/Plant_.jpg);
     background-size: cover;
     background-repeat: no-repeat;
