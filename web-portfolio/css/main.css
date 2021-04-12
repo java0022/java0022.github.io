@@ -302,6 +302,50 @@ h1{
     font-size: 20px;
 }
 
+/* --------- END FOOTER ---------- */
+
+@media screen and (min-width: 700px) {
+
+    body{
+        background-color: lightcoral;
+
+    }
+
+   .img-cat{
+       margin: 0px;
+       width: 50%;
+       margin-right: 10px;
+   }
+
+   .img-logo{
+    background-color: crimson;
+    width: 50%;
+    height: 350px;
+    margin-right: 10px;
+    background-image: url(../images/logo\ edited\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.img-plant{
+    background-color: crimson;
+    width: 50%;
+    height: 350px;
+    background-image: url(../images/Plant_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image{
+    display: flex;
+    margin: 40px;
+}
+
+   
+}
+
 
 
 
