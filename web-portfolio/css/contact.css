@@ -1,0 +1,46 @@
+/*  The header and Footer section will be the same as main.css */
+
+
+/* ---------------------
+     MOBILE STYLES 
+----------------------*/
+/* --------- CONTACT INFO SECTION --------- */
+
+.border-container{
+    text-align: center;
+    border: 2px solid #BCC2C7;
+    padding: 20px 0px 20px 0px;
+    margin: 40px;
+}
+
+h2{
+    color: #DD634C;
+    font-size: 24px;
+}
+
+.border-container p{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+h2, .border-container p{
+    margin: 35px;
+}
+
+/* --------- END CONTACT INFO SECTION --------- */
+
+/* --------- SEND A MESSAGE SECTION --------- */
+
+.send-message{
+    text-align: center;
+
+}
+
+h3{
+    font-size: 20px;
+    margin: 50px;
+    color: #084C4D;
+    font-family: 'Passion One', cursive;
+}
+
+
