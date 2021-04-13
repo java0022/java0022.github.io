@@ -1,0 +1,84 @@
+/*  The header and Footer section will be the same as main.css */
+
+
+/* ---------------------
+     MOBILE STYLES 
+----------------------*/
+
+.img-self{
+    background-image: url(../images/image\ thesis.jpg);
+    max-width: 100%;
+    height: 500px;
+    margin: 60px 40px 60px 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.abt-self p{
+    text-align: center;
+    margin: 40px;
+    line-height: 24px;
+}
+
+/* ----------------------
+      TABLET STYLES
+-------------------------*/
+
+
+@media screen and (min-width: 700px) {
+
+    .self-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "section1 section2"
+        "section3 section3";
+    }
+
+    .img-self{
+        grid-area: section1;
+    }
+
+    .self-first{
+        grid-area: section2;
+    }
+
+    .self-second{
+        grid-area: section3;
+    }
+
+    .img-self{
+        margin: 0px;
+        margin-left: 40px;
+    }
+
+    .abt-self p{
+        margin: 0px;
+        text-align: left;
+        margin-left: 40px;
+        font-size: 24px;
+        line-height: 28px;
+        margin-right: 40px;
+    }
+
+    .self-second{
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+}
+
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+---------------------------------*/
+
+
+/* Used media queries to show responsive state  */
+
+@media screen and (min-width: 1100px) {
+
+    
+}
