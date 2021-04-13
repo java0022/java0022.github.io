@@ -211,7 +211,6 @@ div.nav-mobile img {
 
 
 .hide-mbl {
-    color: teal;
     display: none;
 }
 
@@ -231,6 +230,7 @@ h1 {
     font-size: 50px;
     font-family: 'Passion One', cursive;
     text-align: center;
+    margin-top: 30px;
 }
 
 .hide-tab {
@@ -300,6 +300,7 @@ h1 {
 }
 
 .f-contact {
+    margin: 0px;
     padding-top: 10%;
     color: white;
 }
@@ -599,6 +600,7 @@ h1 {
         text-align: left;
         margin-left: 30px;
     }
+    
 
     section.contact p {
         font-size: 20px;
