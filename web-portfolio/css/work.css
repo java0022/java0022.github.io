@@ -44,7 +44,7 @@ background-image: url(../images/Cat_.jpg);
     text-decoration: none;
     font-size: 28px;
     font-family: 'Playfair Display', serif;
-   color: white;
+    color: white;
 }
 
 .web{
@@ -63,7 +63,61 @@ background-image: url(../images/Cat_.jpg);
 
 @media screen and (min-width: 700px) {
 
-    
+    /* Using CSS Grid */
+
+    h1{
+        text-align: left;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .work-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "area1 area2"
+        "area3 area4";
+    }
+
+    .web{
+        grid-area: area1;
+        margin-top: 40px;
+    }
+
+    .graphic{
+        grid-area: area2;
+    }
+
+    .photo{
+        grid-area: area3;
+    }
+
+    .draw{
+        grid-area: area4;
+    }
+
+
+}
+
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+---------------------------------*/
+
+
+/* Used media queries to show responsive state  */
+
+@media screen and (min-width: 1100px) {
+
+    .box-portfolio{
+        height: 480px;
+    }
+
+    .box-portfolio a{
+        font-size: 38px;
+    }
 }
 
 
