@@ -6,6 +6,9 @@
 ----------------------*/
 /* --------- CONTACT INFO SECTION --------- */
 
+.send-hide{
+    display: none;
+}
 .border-container{
     text-align: center;
     border: 2px solid #BCC2C7;
@@ -78,6 +81,57 @@ h3{
 
 .send a:hover {
     background-color: #084C4D;
+}
+
+/* ----------------------
+      TABLET STYLES
+-------------------------*/
+
+
+@media screen and (min-width: 700px) {
+
+    .contact-form-tab-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "areaa areab"
+        "areac areac";
+    }
+
+    .border-info{
+        grid-area: areab;
+    }
+
+    .send-message-right{
+        grid-area: areaa;
+
+    }
+
+    .send-message-bottom{
+        grid-area: areac;
+    }
+
+    h3{
+        text-align: left;
+    }
+
+    .input-txt-right{
+        width: 73%;
+    }
+
+    .input-txt-message{
+        width: 86%;
+    }
+   
+    .send-hide{
+        display: block;
+    }
+   .send-hide-tab{
+       display: none;
+   }
+
+    
 }
 
 
