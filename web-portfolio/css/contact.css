@@ -137,5 +137,33 @@ h3{
     
 }
 
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+---------------------------------*/
+
+
+/* Used media queries to show responsive state  */
+
+@media screen and (min-width: 1100px) {
+
+    main{
+        background-color: lightgray ;
+    }
+
+    .contact-form-tab-grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "areaa areab"
+        "areac areab";
+    }
+
+    .contact-form-grid{
+        
+    }
+}
 
 
