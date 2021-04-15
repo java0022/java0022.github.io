@@ -5,58 +5,126 @@
      MOBILE STYLES 
 ----------------------*/
 /* --------- SECTION --------- */
-.photo-garlic{
+.photo-garlic {
     background-image: url(../images/1_JAVAID_R.jpg);
 }
 
-.photo-tap{
+/* .box-photo-portfolio {
+    margin-bottom: 30px;
+} */
+
+.box-photo-portfolio-garlic {
+    margin-top: 80px;
+}
+
+.photo-tap {
     background-image: url(../images/JAVAID_R_Monday.jpg);
 }
 
-.photo-vase{
+.photo-vase {
     background-image: url(../images/f.jpg);
 }
 
-.photo-dec{
+.photo-dec {
     background-image: url(../images/JAVAID_R_Tuesday.jpg);
 }
 
-.photo-glass{
+.photo-glass {
     background-image: url(../images/JAVAID_R_Thursday.jpg);
 }
 
-.photo-bike{
+.photo-bike {
     background-image: url(../images/JAVAID_R_Sunday.jpg);
 }
 
-.photo-leaves{
+.photo-leaves {
     background-image: url(../images/JAVAID_R_Friday.jpg);
 }
 
-.photo-trees{
+.photo-trees {
     background-image: url(../images/JAVAID_R_Saturday.jpg);
+
 }
 
-.image{
+.image {
     max-width: 100%;
     height: 350px;
-    margin: 40px 40px 10px 40px ;
-    margin-top: 80px;
+    margin: 0px 0px 10px 0px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
-.photo-txt{
+.box-photo-portfolio{
+    margin: 10px 40px 10px 40px;
+}
+
+.photo-txt {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.work-button{
-     text-align: right;
-     margin:40px;
+.txt-eight {
+    margin-bottom: 40px;
 }
 
-.work-button a{
-    color: brown;
+.work-button {
+    text-align: right;
+    margin: 40px;
+}
+
+.work-button a {
+    color: #7F7F7F;
     text-decoration: none;
 }
+
+/* ----------------------
+      TABLET STYLES
+-------------------------*/
+
+
+@media screen and (min-width: 700px) {
+
+    .photo-portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+   .box-photo-portfolio-garlic, .three, .five, .seven{
+       margin-right: 5px;
+   }
+
+   .two, .four, .six, .eight{
+       margin-left: 5px;
+   }
+}
+
+/* -----------------------------
+
+        DESKTOP STYLES 
+
+---------------------------------*/
+
+
+/* Used media queries to show responsive state  */
+
+@media screen and (min-width: 1100px) {
+
+    .photo-portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .box-photo-portfolio{
+        margin: 0px;
+        margin-right: 10px;
+    }
+
+    .four, .eight{
+        margin-right: 0px;
+    }
+
+}
+
