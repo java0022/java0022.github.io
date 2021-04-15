@@ -5,3 +5,58 @@
      MOBILE STYLES 
 ----------------------*/
 /* --------- SECTION --------- */
+.photo-garlic{
+    background-image: url(../images/1_JAVAID_R.jpg);
+}
+
+.photo-tap{
+    background-image: url(../images/JAVAID_R_Monday.jpg);
+}
+
+.photo-vase{
+    background-image: url(../images/f.jpg);
+}
+
+.photo-dec{
+    background-image: url(../images/JAVAID_R_Tuesday.jpg);
+}
+
+.photo-glass{
+    background-image: url(../images/JAVAID_R_Thursday.jpg);
+}
+
+.photo-bike{
+    background-image: url(../images/JAVAID_R_Sunday.jpg);
+}
+
+.photo-leaves{
+    background-image: url(../images/JAVAID_R_Friday.jpg);
+}
+
+.photo-trees{
+    background-image: url(../images/JAVAID_R_Saturday.jpg);
+}
+
+.image{
+    max-width: 100%;
+    height: 350px;
+    margin: 40px 40px 10px 40px ;
+    margin-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.photo-txt{
+    text-align: center;
+}
+
+.work-button{
+     text-align: right;
+     margin:40px;
+}
+
+.work-button a{
+    color: brown;
+    text-decoration: none;
+}
