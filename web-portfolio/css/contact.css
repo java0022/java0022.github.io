@@ -1,6 +1,6 @@
 /*  The header and Footer section will be the same as main.css */
 
-
+ 
 /* ---------------------
      MOBILE STYLES 
 ----------------------*/
@@ -20,6 +20,7 @@ h2{
     color: #DD634C;
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 .border-container p{
@@ -34,6 +35,8 @@ h2, .border-container p{
 /* --------- END CONTACT INFO SECTION --------- */
 
 /* --------- SEND A MESSAGE SECTION --------- */
+/* Used text-align:center to align the labels and input fields in the center */
+
 
 .send-message{
     text-align: center;
