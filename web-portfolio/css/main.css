@@ -291,6 +291,7 @@ h1 {
 .info a:hover {
     background-color: #084C4D;
     transition: background-color 0.8s;
+    color: white;
 }
 
 /* --------- END ABOUT SECTION ---------- */

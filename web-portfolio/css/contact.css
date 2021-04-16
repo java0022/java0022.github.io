@@ -36,6 +36,7 @@ h2, .border-container p{
 
 /* --------- SEND A MESSAGE SECTION --------- */
 /* Used text-align:center to align the labels and input fields in the center */
+/* Added CSS transitions on the hover state of the submit anchor tag */
 
 
 .send-message{
@@ -63,11 +64,9 @@ h3{
     border: 2px solid #084C4D;
     padding: 15px;
     width: 78%;
-    /* margin: 20px 10px 10px 10px; */
     margin: 20px 0px 10px 0px;
+    /* background-color: #fbdfd9; */
 }
-
-
 
 .input-txt-message{
     padding-bottom: 100px;
@@ -87,16 +86,19 @@ h3{
 
 .send a:hover {
     background-color: #084C4D;
-    
+    transition: background-color 0.8s;
+    color: white;
 }
 
 /* ----------------------
       TABLET STYLES
 -------------------------*/
 
+/* Used Media Queries for Responsive states */
 
 @media screen and (min-width: 700px) {
 
+    /* Used CSS Grid to create a two column / one row layout and used the property grid-template-areas to reposition/ re-structure the input fields and contact information */
     .contact-form-tab-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -135,6 +137,7 @@ h3{
     .send-hide{
         display: block;
     }
+
    .send-hide-tab{
        display: none;
    }
@@ -161,7 +164,8 @@ h3{
 
 @media screen and (min-width: 1100px) {
 
-  
+  /* Used CSS Grid to create a two column / one row layout and used the grid-template-areas property to restructure/ reposition the input fields
+   and the contact information section */
 
     .contact-form-tab-grid{
         display: grid;
@@ -191,6 +195,10 @@ h3{
 
     .send{
         margin-bottom: 100px;
+    }
+
+    h2{
+        font-size: 22px;
     }
 
    
