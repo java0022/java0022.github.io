@@ -4,7 +4,9 @@
 /* ---------------------
      MOBILE STYLES 
 ----------------------*/
-/* --------- SECTION --------- */
+
+/* Added background images for each photograph  */
+
 .photo-garlic {
     background-image: url(../images/1_JAVAID_R.jpg);
 }
@@ -62,6 +64,9 @@
 .photo-txt {
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color:  #7F7F7F;
 }
 
 .txt-eight {
