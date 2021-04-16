@@ -442,7 +442,7 @@ h1 {
     .about {
         background-image: url(../images/dec.jpg);
         background-size: cover;
-        background-repeat: no repeat;
+        background-repeat: no-repeat;
         padding: 50px;
         margin: 60px 90px 30px 90px;
     }
