@@ -84,6 +84,10 @@
     font-family: 'Playfair Display', serif;
 }
 
+.work-button a:hover{
+    color: black;
+}
+
 /* ----------------------
       TABLET STYLES
 -------------------------*/
@@ -122,6 +126,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        margin-bottom: 30px;
     }
 
     .box-photo-portfolio{
@@ -131,6 +136,10 @@
 
     .four, .eight{
         margin-right: 0px;
+    } 
+
+    .work-button a{
+        font-size: 20px;
     }
 
 }
