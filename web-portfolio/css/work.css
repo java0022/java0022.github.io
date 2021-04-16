@@ -1,9 +1,13 @@
 /*  The header and Footer section will be the same as main.css */
 
-
 /* ---------------------
      MOBILE STYLES 
 ----------------------*/
+
+/* Added Background image for each individual portfolio catagory and aligned and spaced them accordingly */
+/* added a black background on the images and decreased the opacity so the text would be visible */
+/* Added animation on the photography anchor tag Using CSS libraries */
+
 
 h1{
     color: #DD634C;
@@ -26,6 +30,13 @@ background-image: url(../images/Cat_.jpg);
 
 }
 
+.black{
+    background-color: black;
+    max-width: 100%;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.6)
+}
+
 .box-portfolio{
     max-width: 100%;
     height: 350px;
@@ -38,6 +49,10 @@ background-image: url(../images/Cat_.jpg);
 .box-txt{
     text-align: center;
     padding-top: 40%;
+}
+
+.photo .box-txt a{
+    color: #DD634C;
 }
 
 .box-portfolio a{
@@ -63,7 +78,7 @@ background-image: url(../images/Cat_.jpg);
 
 @media screen and (min-width: 700px) {
 
-    /* Using CSS Grid */
+    /* Used CSS Grid to create a two columns/two rows layout in order to align and position the portfolio boxes*/
 
     h1{
         text-align: left;
@@ -112,6 +127,9 @@ background-image: url(../images/Cat_.jpg);
 @media screen and (min-width: 1100px) {
 
     .box-portfolio{
+        height: 480px;
+    }
+    .black{
         height: 480px;
     }
 
