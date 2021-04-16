@@ -81,15 +81,17 @@
 .work-button a {
     color: #7F7F7F;
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
 }
 
 /* ----------------------
       TABLET STYLES
 -------------------------*/
-
+/* Used Media Queries for responsive states */
 
 @media screen and (min-width: 700px) {
-
+ /* Used CSS Grid to create a two column / four rows layout to align and position each photograph accordingly  */
+ /* fixed/re-structured margins so each photograph can be displayed properly */
     .photo-portfolio {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -115,7 +117,7 @@
 /* Used media queries to show responsive state  */
 
 @media screen and (min-width: 1100px) {
-
+/* Used CSS Grid to create a four column / two rows layout to make the alignment and positioning of the photographs appropriate to the desktop view */
     .photo-portfolio {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
