@@ -57,12 +57,14 @@ h3{
 }
 
 .input-txt{
-    border: 2px solid #BCC2C7;
+    border: 2px solid #084C4D;
     padding: 15px;
     width: 78%;
     /* margin: 20px 10px 10px 10px; */
     margin: 20px 0px 10px 0px;
 }
+
+
 
 .input-txt-message{
     padding-bottom: 100px;
@@ -124,6 +126,7 @@ h3{
 
     .input-txt-message{
         width: 86%;
+        padding-bottom: 120px;
     }
    
     .send-hide{
@@ -133,7 +136,14 @@ h3{
        display: none;
    }
    
-  
+   .contact-form-grid{
+       margin-top: 30px;
+   }
+   
+    .send{
+        text-align: left;
+        margin: 40px;
+    }
     
 }
 
@@ -160,8 +170,27 @@ h3{
     }
 
     .contact-form-grid{
-      display: flex;
+     display: flex;
+     /* margin-left: 42px; */
     }
+
+    .input-txt-right{
+        margin-left: 42px;
+    }
+
+    .input-txt{
+        margin-right: 30px;
+    }
+
+    .border-container{
+        margin-top: 76px;
+    }
+
+    .send{
+        margin-bottom: 100px;
+    }
+
+   
 }
 
 
